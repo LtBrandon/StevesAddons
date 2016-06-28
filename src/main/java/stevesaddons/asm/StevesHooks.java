@@ -311,7 +311,7 @@ public class StevesHooks
 
     private static void tick(Collection<FlowComponent> triggers)
     {
-        if (triggers != null)
+        /*if (triggers != null)
         {
             for (Iterator<FlowComponent> itr = triggers.iterator(); itr.hasNext();)
             {
@@ -325,7 +325,7 @@ public class StevesHooks
                     itr.remove();
                 }
             }
-        }
+        }*/
     }
 
     private static Multimap<TileEntityManager, FlowComponent> getRegistry(ComponentMenuTriggered menu)
